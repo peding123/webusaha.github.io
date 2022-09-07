@@ -1,0 +1,265 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+}
+
+.header {
+    background-color: #008BDE;
+    text-align: center;
+    padding: 1px;
+    color: white;
+}
+
+.header h1 {
+    position: relative;
+    font-size: 20px;
+}
+
+.header img {
+    position: absolute;
+    display: flex;
+    width: 75px;
+    height: 75px;
+    margin: 8px;
+    border-radius: 50%;
+}
+
+.topnav {
+    background-color: black;
+    margin-top: -10px;
+}
+
+.topnav a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+
+.search-form {
+    margin-top: 7px;
+    float: right;
+    margin-right: 16px;
+}
+
+.search {
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    float: right;
+    background-color: #008BDE;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding: 7px;
+    border: none;
+    font-size: 16px;
+}
+
+.topnav a:hover {
+    background-color: #008BDE;
+    transition: ease-in-out .3s;
+}
+
+.tagline {
+    margin-top: -22px;
+    text-align: center;
+    justify-content: center;
+    height: 70vh;
+    background-image: url(../IMG/header.jpg);
+    background-size: cover;
+}
+
+.tag {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: bold;
+}
+
+.product {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product h1 {
+    margin-top: 40px;
+    color: #008BDE;
+}
+
+.product-list {
+    justify-content: center;
+    display: flex;
+}
+
+.col-product {
+    margin-top: 30px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+
+.col-product:hover {
+    transform: scale(1.1);
+}
+
+.col-product img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.col-product p {
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    color: #008BDE;
+    font-weight: bold;
+}
+
+.row-visi {
+    margin-top: 50px;
+    align-items: center;
+    padding: 30px;
+    display: flex;
+    background-color: #008BDE;
+}
+
+.col-visi {
+    background-color: #008BDE;
+    text-align: center;
+}
+
+.col-visi h1 {
+    padding-bottom: 20px;
+    color: white;
+    background-color: #008BDE;
+    text-align: center;
+}
+
+.col-misi {
+    background-color: #008BDE;
+    text-align: center;
+}
+
+.col-misi h1,
+p {
+    padding-bottom: 20px;
+    color: white;
+    background-color: #008BDE;
+    text-align: center;
+}
+
+.col-tujuan {
+    background-color: #008BDE;
+    text-align: center;
+}
+
+.col-tujuan h1 {
+    padding-bottom: 20px;
+    color: white;
+    background-color: #008BDE;
+    text-align: center;
+}
+
+.kontak {
+    color: #008BDE;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.form-kontak {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #008BDE;
+    outline: none;
+}
+
+.row-form {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.col-form h3 {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #008BDE;
+}
+
+.col-form,
+.form-kontak h3 {
+    margin: 10px;
+    text-align: end;
+}
+
+.btn-kirim {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    color: #008BDE;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-kirim:hover {
+    cursor: pointer;
+    background-color: #008BDE;
+    color: white;
+    transition: .3s ease-in-out;
+}
+
+.footer {
+    display: flex;
+    height: 33vh;
+    margin-top: 150px;
+    background-color: #008BDE;
+}
+
+.col-footer {
+    width: 100%;
+}
+
+.nama {
+    padding-left: 30px;
+    color: white;
+    margin-top: 65px;
+}
+
+.copyright {
+    margin-top: 30px;
+    position: relative;
+}
+
+.menu {
+    text-align: right;
+    padding-right: 30px;
+    color: white;
+}
+
+ul li {
+    margin: 6px;
+    list-style: none;
+    text-align: right;
+    color: white;
+    padding-right: 30px;
+}
