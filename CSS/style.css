@@ -1,7 +1,9 @@
+html,
 body {
     margin: 0px;
     padding: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -71,7 +73,6 @@ button {
 
 .topnav a:hover {
     background-color: #008BDE;
-    transition: ease-in-out .3s;
 }
 
 .tagline {
@@ -99,6 +100,7 @@ button {
 .product h1 {
     margin-top: 40px;
     color: #008BDE;
+    margin-bottom: 50px;
 }
 
 .product-list {
@@ -262,4 +264,15 @@ ul li {
     text-align: right;
     color: white;
     padding-right: 30px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.6;
+}
+
+ul li a:hover {
+    opacity: 1;
 }

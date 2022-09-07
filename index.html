@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <title>Document</title>
+    <title>Sumber Berkah</title>
 </head>
 
 <body>
@@ -18,8 +18,8 @@
         </div>
         <div class="topnav">
             <a href="#">Home</a>
-            <a href="#">Produk</a>
-            <a href="#">Kontak</a>
+            <a href="#nav-product">Produk</a>
+            <a href="#nav-kontak">Kontak</a>
             <a href="#">Login</a>
             <form class="search-form">
                 <input type="text" placeholder="Search" class="search">
@@ -29,24 +29,26 @@
         <div class="tagline">
             <h1 class="tag">"Menjadi Yang Terbaik <br>Adalah Yang Terbaik"</h1>
         </div>
-        <div class="product">
-            <h1>Produk</h1>
-            <div class="product-list">
-                <div class="col-product">
-                    <img src="IMG/produk.jpg" alt="">
-                    <p>Minyak</p>
-                </div>
-                <div class="col-product">
-                    <img src="IMG/produk.jpg" alt="">
-                    <p>Telur</p>
-                </div>
-                <div class="col-product">
-                    <img src="IMG/produk.jpg" alt="">
-                    <p>Garam</p>
-                </div>
-                <div class="col-product">
-                    <img src="IMG/produk.jpg" alt="">
-                    <p>Terigu</p>
+        <div id="nav-product">
+            <div class="product">
+                <h1>Produk</h1>
+                <div class="product-list">
+                    <div class="col-product">
+                        <img src="IMG/minyak.jpg" alt="">
+                        <p>Minyak</p>
+                    </div>
+                    <div class="col-product">
+                        <img src="IMG/telur.jpg" alt="">
+                        <p>Telur</p>
+                    </div>
+                    <div class="col-product">
+                        <img src="IMG/garam.jpg" alt="">
+                        <p>Garam</p>
+                    </div>
+                    <div class="col-product">
+                        <img src="IMG/terigu.jpg" alt="">
+                        <p>Terigu</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -67,18 +69,20 @@
                     repudiandae voluptatibus provident maxime aut repellendus? Fuga.</p>
             </div>
         </div>
-        <div class="kontak">
-            <h1>Pesan Sekarang</h1>
-        </div>
-        <div class="row-form">
-            <div class="col-form">
-                <h3>Nama Barang</h3>
-                <input type="text" name="NamBa" class="form-kontak">
-                <h3>Jenis Barang</h3>
-                <input type="text" name="JenBa" class="form-kontak">
-                <h3>Jumlah Barang</h3>
-                <input type="text" name="JumBa" class="form-kontak">
-                <button class="btn-kirim">Kirim</button>
+        <div id="nav-kontak">
+            <div class="kontak">
+                <h1>Pesan Sekarang</h1>
+            </div>
+            <div class="row-form">
+                <div class="col-form">
+                    <h3>Nama Barang</h3>
+                    <input type="text" name="NamBa" class="form-kontak">
+                    <h3>Jenis Barang</h3>
+                    <input type="text" name="JenBa" class="form-kontak">
+                    <h3>Jumlah Barang</h3>
+                    <input type="text" name="JumBa" class="form-kontak">
+                    <button class="btn-kirim">Kirim</button>
+                </div>
             </div>
         </div>
         <div class="footer">
@@ -91,10 +95,10 @@
             <div class="col-footer">
                 <h1 class="menu">Menu</h1>
                 <ul>
-                    <li>Home</li>
-                    <li>Produk</li>
-                    <li>Kontak</li>
-                    <li>Login</li>
+                    <li><a href="#">Home</li></a>
+                    <li><a href="#nav-product">Produk</li></a>
+                    <li><a href="#nav-kontak">Kontak</li></a>
+                    <li><a href="#">Login</li></a>
                 </ul>
             </div>
         </div>
