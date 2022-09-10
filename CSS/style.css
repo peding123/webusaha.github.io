@@ -13,18 +13,21 @@ body {
 }
 
 .header {
-    background-color: #008BDE;
+    background-color: #181818;
     text-align: center;
     padding: 1px;
     color: white;
 }
 
 .header h1 {
+    padding-top: 20px;
     position: relative;
     font-size: 20px;
 }
 
+
 .header img {
+    padding-top: 15px;
     position: absolute;
     display: flex;
     width: 75px;
@@ -39,6 +42,7 @@ body {
 }
 
 .topnav a {
+    opacity: .6;
     display: inline-block;
     padding: 14px 16px;
     text-decoration: none;
@@ -61,7 +65,7 @@ body {
 
 button {
     float: right;
-    background-color: #008BDE;
+    background-color: #181818;
     color: white;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
@@ -72,7 +76,7 @@ button {
 }
 
 .topnav a:hover {
-    background-color: #008BDE;
+    opacity: 1;
 }
 
 .tagline {
@@ -99,7 +103,7 @@ button {
 
 .product h1 {
     margin-top: 40px;
-    color: #008BDE;
+    color: #181818;
     margin-bottom: 50px;
 }
 
@@ -130,7 +134,7 @@ button {
     text-align: center;
     width: 100%;
     background-color: white;
-    color: #008BDE;
+    color: #181818;
     font-weight: bold;
 }
 
@@ -139,23 +143,23 @@ button {
     align-items: center;
     padding: 30px;
     display: flex;
-    background-color: #008BDE;
+    background-color: #181818;
 }
 
 .col-visi {
-    background-color: #008BDE;
+    background-color: #181818;
     text-align: center;
 }
 
 .col-visi h1 {
     padding-bottom: 20px;
     color: white;
-    background-color: #008BDE;
+    background-color: #181818;
     text-align: center;
 }
 
 .col-misi {
-    background-color: #008BDE;
+    background-color: #181818;
     text-align: center;
 }
 
@@ -163,24 +167,24 @@ button {
 p {
     padding-bottom: 20px;
     color: white;
-    background-color: #008BDE;
+    background-color: #181818;
     text-align: center;
 }
 
 .col-tujuan {
-    background-color: #008BDE;
+    background-color: #181818;
     text-align: center;
 }
 
 .col-tujuan h1 {
     padding-bottom: 20px;
     color: white;
-    background-color: #008BDE;
+    background-color: #181818;
     text-align: center;
 }
 
 .kontak {
-    color: #008BDE;
+    color: #181818;
     text-align: center;
     margin-top: 70px;
     margin-bottom: 60px;
@@ -189,7 +193,7 @@ p {
 .form-kontak {
     width: 100%;
     border: none;
-    border-bottom: 2px solid #008BDE;
+    border-bottom: 2px solid #181818;
     outline: none;
 }
 
@@ -202,7 +206,7 @@ p {
     text-align: left;
     margin-top: 20px;
     margin-bottom: 10px;
-    color: #008BDE;
+    color: #181818;
 }
 
 .col-form,
@@ -217,7 +221,7 @@ p {
     padding: 10px;
     width: 100%;
     background-color: white;
-    color: #008BDE;
+    color: #181818;
     border-radius: 10px;
     font-weight: bold;
     border: none;
@@ -225,54 +229,36 @@ p {
 
 .btn-kirim:hover {
     cursor: pointer;
-    background-color: #008BDE;
+    background-color: #181818;
     color: white;
     transition: .3s ease-in-out;
 }
 
-.footer {
+.row-footer {
+    background-color: #181818;
     display: flex;
-    height: 33vh;
+    justify-content: space-between;
     margin-top: 150px;
-    background-color: #008BDE;
 }
 
-.col-footer {
-    width: 100%;
-}
-
-.nama {
-    padding-left: 30px;
+.col-footer h1,
+p {
+    margin-left: 20px;
     color: white;
-    margin-top: 65px;
 }
 
-.copyright {
-    margin-top: 30px;
+.col-footer h2,
+li {
+    cursor: pointer;
+    opacity: .6;
+    color: white;
     position: relative;
-}
-
-.menu {
-    text-align: right;
-    padding-right: 30px;
-    color: white;
-}
-
-ul li {
-    margin: 6px;
+    font-size: 20px;
+    margin-right: 20px;
     list-style: none;
     text-align: right;
-    color: white;
-    padding-right: 30px;
-
 }
 
-ul li a {
-    text-decoration: none;
-    color: white;
-    opacity: 0.6;
-}
-
-ul li a:hover {
+.col-footer li:hover {
     opacity: 1;
 }
