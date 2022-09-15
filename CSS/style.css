@@ -306,9 +306,12 @@ p {
     }
 
     .row-footer {
+        text-align: center;
+        padding-right: 8%;
         padding-top: 20px;
         flex-wrap: wrap;
-        display: list-item;
+        display: flex;
+        justify-content: center;
         margin-bottom: -18px;
     }
 
@@ -332,7 +335,6 @@ p {
         padding-top: 40px;
         padding-bottom: 40px;
         justify-content: center;
-        position: relative;
         text-align: center;
     }
 }
