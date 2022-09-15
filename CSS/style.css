@@ -247,12 +247,6 @@ p {
     color: white;
 }
 
-.col-footer p {
-    margin-left: 20px;
-    color: white;
-    margin-top: 70px;
-}
-
 .col-footer h2 {
     border-bottom: 2px solid white;
     text-align: right;
@@ -273,4 +267,72 @@ p {
 
 .col-footer li:hover {
     opacity: 1;
+}
+
+.cr {
+    text-align: left;
+    background-color: #181818;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 476px) {
+    .header img {
+        position: relative;
+        display: inline;
+        width: 75px;
+        height: 75px;
+        margin: 0px;
+        margin-top: 10px;
+        border-radius: 50%;
+    }
+
+    .topnav {
+        text-align: center;
+    }
+
+    .header h1 {
+        background-size: cover;
+        justify-content: center;
+    }
+
+    .product-list {
+        flex-wrap: wrap;
+    }
+
+    .row-visi {
+        flex-wrap: wrap;
+    }
+
+    .row-footer {
+        padding-top: 20px;
+        flex-wrap: wrap;
+        display: list-item;
+        margin-bottom: -18px;
+    }
+
+    .col-footer h1 {
+        text-align: center;
+        border: none;
+    }
+
+    .col-footer h2 {
+        display: none;
+        border: none;
+    }
+
+    .col-footer ul {
+        display: flex;
+        position: relative;
+        justify-content: center;
+    }
+
+    .cr {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
 }
